@@ -346,10 +346,20 @@ body {
 
 /* Home Page */
 
-.entry-content {
+.home-content-top,
+.home-content-left {
 	background: #517201;
 	border-radius: 25px;
+	display: inline-block;
+}
+
+.home-content-top {
 	margin: 25px 0 0 0;
+}
+	
+.home-content-left {
+	width: 66%;
+	margin-top: 10px;
 }
 
 .home-content-top-image {
@@ -364,11 +374,17 @@ body {
 
 .home-content-top-description {
 	float: right;
-	width: 370px;
 	margin: 10px 10px 0 0;
+	width: 370px;
 }
 
-.home-content-top-description h1 {
+.home-content-left-description {
+	float: left;
+	margin: 10px 10px 0 20px;
+}	
+
+.home-content-top-description h1,
+.home-content-left-description h1 {
 	color: #99bc20;
 	text-transform: uppercase;
 	font-size: 20px;
@@ -378,7 +394,8 @@ body {
 	padding-bottom: 5px;
 }
 
-.home-content-top-description p {
+.home-content-top-description p,
+.home-content-left-description p {
 	margin: 0;
 	color: #fdfdfb;
 	font-size: 15px;
@@ -390,6 +407,15 @@ body {
 	float: right;
 	width: 370px;
 	margin: 5px 10px 5px 0;
+}
+
+.home-content-left-links {
+	float: left;
+	margin: 5px 10px 10px 20px;
+}
+
+.home-content-top-links,
+.home-content-left-links {
 	background: #0d0d0d;
 	border-radius: 13px;
 	color: #99bc20;
@@ -399,33 +425,40 @@ body {
     font-size: 15px;
 }
 
-.home-content-top-links ul {
+.home-content-top-links ul,
+.home-content-left-links ul {
 	list-style: none;
 }
 
-.home-content-top-links ul li {
+.home-content-top-links ul li,
+.home-content-left-links ul li {
 	float: left;
 }
 
-.home-content-top-links ul li:first-child {
+.home-content-top-links ul li:first-child,
+.home-content-left-links ul li:first-child {
 	color: #fdfdfb;
     background: #394902;
     border-radius: 25px 10px 10px 25px;
     padding: 0 10px;
 }
 
-.home-content-top-links ul li a {
+.home-content-top-links ul li a,
+.home-content-left-links ul li a {
 	color: #99bc20;
 	box-shadow: 1px 0 0 0 currentColor;
 	padding: 0 10px 0 10px;
 }
 
 .home-content-top-links ul li a:hover,
-.home-content-top-links ul li a:focus {
+.home-content-top-links ul li a:focus, 
+.home-content-left-links ul li a:hover,
+.home-content-left-links ul li a:focus {
 	box-shadow: 1px 0 0 0 currentColor;
 	text-decoration: underline;
 }
 
-.home-content-top-links ul li:last-child a {
+.home-content-top-links ul li:last-child a,
+.home-content-left-links ul li:last-child a {
 	box-shadow: none;
 }

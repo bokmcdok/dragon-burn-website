@@ -29,6 +29,20 @@
 				</ul>
 			</div>
 		</div>
+		
+		<div class="home-content-left">
+			<div class="home-content-left-description">
+				<h1>Volunteer for Dragon Burn</h1>
+				<p>Dragon Burn is a created and run by participants just like
+				you. Dragon Burn won't happen without your participation!</p>
+			</div>
+			<div class="home-content-left-links">
+				<ul>
+					<li>Become a participant:</li>
+					<li><a href="http://www.dragonburn.bokmcdok.com/en/participate/volunteer-dragon-burn/">Volunteer Now!</a></li>				
+				</ul>
+			</div>
+		</div>
 		<?php
 		wp_link_pages( array(
 			'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentysixteen' ) . '</span>',
