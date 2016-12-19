@@ -23,7 +23,7 @@
 			<div class="home-content-top-links">
 				<ul>
 					<li>Learn More:</li>
-					<li><a href="http://www.dragonburn.bokmcdok.com/en/the-event/">The Event</a></li>
+					<li><a href="http://www.dragonburn.bokmcdok.com/en/the-burn/">The Event</a></li>
 					<li><a href="http://www.dragonburn.bokmcdok.com/en/prepare/tickets/">Get Tickets</a></li>
 					<li><a href="http://www.dragonburn.bokmcdok.com/en/participate/">Participate</a></li>					
 				</ul>
@@ -66,6 +66,29 @@
 			
 		</div>
 		
+		<div class="home-content-bottom">
+			<h1>Latest News</h1>
+			<ul>
+				<?php $the_query = new WP_Query( 'posts_per_page=2' ); ?>
+				<?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
+				<li>
+					<a href="<?php the_permalink() ?>"><h2><?php the_title(); ?></h2></a>
+					<?php the_excerpt(__('(more…)')); ?>
+				</li>
+				<?php 
+				endwhile;
+				wp_reset_postdata();
+				?>
+			</ul>
+			
+			<div class="home-content-bottom-links">
+				<ul>
+					<li><a href="http://www.dragonburn.bokmcdok.com/en/the-burn/latest-news/">Read More News</a></li>
+					<li><a href="http://www.dragonburn.bokmcdok.com/en/the-burn/contact/">Tell Us Your News</a></li>
+				</ul>
+			</div>			
+		</div>
+		
 		<?php
 		wp_link_pages( array(
 			'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentysixteen' ) . '</span>',
@@ -77,17 +100,5 @@
 		) );
 		?>
 	</div><!-- .entry-content -->
-
-	<?php
-		edit_post_link(
-			sprintf(
-				/* translators: %s: Name of current post */
-				__( 'Edit<span class="screen-reader-text"> "%s"</span>', 'twentysixteen' ),
-				get_the_title()
-			),
-			'<footer class="entry-footer"><span class="edit-link">',
-			'</span></footer><!-- .entry-footer -->'
-		);
-	?>
 
 </article><!-- #post-## -->
