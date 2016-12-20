@@ -354,6 +354,9 @@ body {
 	background: #517201;
 	border-radius: 25px;
 	display: inline-block;
+    -moz-box-shadow: 0 1px 10px #323b12;
+    -webkit-box-shadow: 0 1px 10px #323b12;
+    box-shadow: 0 1px 10px #323b12;
 }
 
 .home-content-top {
@@ -535,8 +538,8 @@ body {
 	border-radius: 0 10px 10px 0;
 	letter-spacing: initial;
 	color: #99bc20;
-	-moz-box-shadow: 1px 1px 3px #394902;
-    -webkit-box-shadow: 1px 1px 3px #394902;
+	-moz-box-shadow: 0 1px 3px #394902;
+    -webkit-box-shadow: 0 1px 3px #394902;
     box-shadow: 0 1px 3px #394902;
 } 
 
@@ -564,7 +567,7 @@ body {
 	color: #99bc20;
 	background: #0d0d0d;
 	padding: 10px 15px 5px 15px;
-	border-radius: 25px 25px 3px 3px;
+	border-radius: 25px 25px 1px 1px;
 	font-size: 20px;
 	font-weight: normal;
 }
@@ -579,6 +582,84 @@ body {
 	padding: 5px 15px 0 15px;
 }
 
+.home-content-bottom p a {
+	color:#517201;
+	-moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.home-content-bottom p a:hover {
+	color:#517201;
+	text-decoration: underline;
+}	
+
 .home-content-bottom p:last-child {
 	padding: 5px 15px 15px 15px;
+}
+
+/* Sidebar */
+
+.sidebar {
+	margin-left: 73%;
+	width: 30%;
+}
+
+.home-sidebar-top {
+	background: #fdfdfb;
+    border-radius: 30px;
+    margin-top: 25px;
+    -moz-box-shadow: 0 1px 10px #1a1a1a;
+    -webkit-box-shadow: 0 1px 10px #1a1a1a;
+    box-shadow: 0 1px 10px #1a1a1a;
+    padding-bottom: 1px;
+}
+
+.home-sidebar-top h1 {
+	background: #0d0d0d;
+    border-radius: 25px 25px 1px 1px;
+    text-align: center;
+    font-weight: normal;
+    color: #99bc20;
+}
+
+.home-sidebar-top .soliloquy-container {
+	padding: 4px 4px 0 4px;
+}
+
+.home-sidebar-top .soliloquy-wrapper {
+    border-radius: 28px 28px 0 0 !important;
+    padding: 10px 10px 0 10px !important;
+    background: #99bc20 !important;
+}
+
+.home-sidebar-top .soliloquy-container .soliloquy-image {
+	border-radius: 19px !important;
+	-moz-box-shadow: 0 1px 3px #394902;
+    -webkit-box-shadow: 0 1px 3px #394902;
+    box-shadow: 0 1px 3px #394902;
+}
+
+.home-sidebar-top-link {
+    background: #99bc20;
+    margin: 0 4px 3px 4px;
+    border-radius: 0 0 27px 27px;
+    padding: 7px 3px 5px 3px;
+}
+
+.home-sidebar-top-link a {
+	color: #99bc20;
+    background: #0d0d0d;
+    text-align: center;
+    border-radius: 25px;
+    display: block;
+    margin: 0 10px;
+	-moz-box-shadow: 0 1px 3px #394902;
+    -webkit-box-shadow: 0 1px 3px #394902;
+    box-shadow: 0 1px 3px #394902;
+}
+
+.home-sidebar-top-link a:hover {
+	color: #99bc20;
+	text-decoration: underline;
 }
