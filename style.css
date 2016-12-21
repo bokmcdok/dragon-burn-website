@@ -340,9 +340,12 @@ body {
 
 /* Main Content */
 
+.site-main, .sidebar {
+	margin-bottom: 2em;
+}
+
 .site-content {
 	background: #394902;
-	border-radius: 0 0 50px 50px;
 }
 
 /* Home Page */
@@ -605,17 +608,19 @@ body {
 	width: 30%;
 }
 
-.home-sidebar-top {
-	background: #fdfdfb;
+.home-sidebar-top,
+.home-sidebar-bottom {
+	background: #99bc20;
     border-radius: 30px;
     margin-top: 25px;
-    -moz-box-shadow: 0 1px 10px #1a1a1a;
-    -webkit-box-shadow: 0 1px 10px #1a1a1a;
-    box-shadow: 0 1px 10px #1a1a1a;
+    -moz-box-shadow: 0 1px 10px #323b12;
+    -webkit-box-shadow: 0 1px 10px #323b12;
+    box-shadow: 0 1px 10px #323b12;
     padding-bottom: 1px;
 }
 
-.home-sidebar-top h1 {
+.home-sidebar-top h1,
+.home-sidebar-bottom h1 {
 	background: #0d0d0d;
     border-radius: 25px 25px 1px 1px;
     text-align: center;
@@ -628,9 +633,7 @@ body {
 }
 
 .home-sidebar-top .soliloquy-wrapper {
-    border-radius: 28px 28px 0 0 !important;
     padding: 10px 10px 0 10px !important;
-    background: #99bc20 !important;
 }
 
 .home-sidebar-top .soliloquy-container .soliloquy-image {
@@ -640,14 +643,14 @@ body {
     box-shadow: 0 1px 3px #394902;
 }
 
-.home-sidebar-top-link {
-    background: #99bc20;
+.home-sidebar-top-link,
+.home-sidebar-bottom-link {
     margin: 0 4px 3px 4px;
-    border-radius: 0 0 27px 27px;
     padding: 7px 3px 5px 3px;
 }
 
-.home-sidebar-top-link a {
+.home-sidebar-top-link a,
+.home-sidebar-bottom-link a {
 	color: #99bc20;
     background: #0d0d0d;
     text-align: center;
@@ -659,7 +662,25 @@ body {
     box-shadow: 0 1px 3px #394902;
 }
 
-.home-sidebar-top-link a:hover {
+.home-sidebar-top-link a:hover,
+.home-sidebar-top-link a:focus,
+.home-sidebar-bottom-link a:hover,
+.home-sidebar-bottom-link a:focus {
 	color: #99bc20;
 	text-decoration: underline;
+}
+
+.home-sidebar-bottom p {
+	margin: 10px 20px;
+}
+
+.home-sidebar-bottom b {
+	color: #394902;
+	text-shadow: 1px 1px 3px #517201;
+}
+
+/* footer */
+
+.site-footer {
+	background: #394902;
 }
