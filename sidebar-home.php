@@ -10,7 +10,7 @@
 			<h1>From the Gallery</h1>
 			<?php if ( function_exists( 'soliloquy' ) ) { soliloquy( '679' ); } ?>
 			<div class="home-sidebar-top-link">
-				<a href="http://www.dragonburn.bokmcdok.com/en/gallery/image-gallery/">Visit the Image Gallery</a>
+				<a href="<?php echo db_get_base_url(); ?>/gallery/image-gallery/">Visit the Image Gallery</a>
 			</div>
 		</div>
 		
@@ -20,7 +20,7 @@
 			Ten Principles of Burning Man. They include  <b>Gifting</b>,
 			<b>Radical Free Expression</b> and <b>Leaving No Trace</b>.</p>
 			<div class="home-sidebar-bottom-link">
-				<a href="http://www.dragonburn.bokmcdok.com/en/about/dragon-burn-works/guiding-principles/">See Our Guiding Principles</a>
+				<a href="<?php echo db_get_base_url(); ?>/about/dragon-burn-works/guiding-principles/">See Our Guiding Principles</a>
 			</div>
 		</div>
 	</aside><!-- .sidebar .widget-area -->

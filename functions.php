@@ -33,7 +33,10 @@ function dragon_dequeue_google_fonts() {
 }
 add_action( 'wp_enqueue_scripts', 'dragon_dequeue_google_fonts', 20 );
 
-//  Improve the article excerpts.
+/*
+ *	Function that creates much nicer article excerpts. 
+ */
+
 function improved_trim_excerpt($text) {
         global $post;
         if ( '' == $text ) {
@@ -84,4 +87,13 @@ function improved_trim_excerpt($text) {
 //  Replace default excerpt filter with our custom filter.
 remove_filter('get_the_excerpt', 'wp_trim_excerpt');
 add_filter('get_the_excerpt', 'improved_trim_excerpt');
+
+/*
+ * Helper function to get base site url.
+ */
+
+function db_get_base_url() {
+	return esc_url( site_url( '/' ) . pll_current_language() );
+}
+
 ?>

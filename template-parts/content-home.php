@@ -23,9 +23,9 @@
 			<div class="home-content-top-links">
 				<ul>
 					<li>Learn More:</li>
-					<li><a href="http://www.dragonburn.bokmcdok.com/en/the-burn/">The Event</a></li>
-					<li><a href="http://www.dragonburn.bokmcdok.com/en/prepare/tickets/">Get Tickets</a></li>
-					<li><a href="http://www.dragonburn.bokmcdok.com/en/participate/">Participate</a></li>					
+					<li><a href="<?php echo db_get_base_url(); ?>/the-burn/">The Event</a></li>
+					<li><a href="<?php echo db_get_base_url(); ?>/prepare/tickets/">Get Tickets</a></li>
+					<li><a href="<?php echo db_get_base_url(); ?>/participate/">Participate</a></li>					
 				</ul>
 			</div>
 		</div>
@@ -39,7 +39,7 @@
 			<div class="home-content-left-links">
 				<ul>
 					<li>Become a participant:</li>
-					<li><a href="http://www.dragonburn.bokmcdok.com/en/participate/volunteer-dragon-burn/">Volunteer Now!</a></li>				
+					<li><a href="<?php echo db_get_base_url(); ?>/participate/volunteer-dragon-burn/">Volunteer Now!</a></li>				
 				</ul>
 			</div>
 		</div>
@@ -83,8 +83,8 @@
 			
 			<div class="home-content-bottom-links">
 				<ul>
-					<li><a href="http://www.dragonburn.bokmcdok.com/en/the-burn/latest-news/">Read More News</a></li>
-					<li><a href="http://www.dragonburn.bokmcdok.com/en/the-burn/contact/">Tell Us Your News</a></li>
+					<li><a href="<?php echo db_get_base_url(); ?>/the-burn/latest-news/">Read More News</a></li>
+					<li><a href="<?php echo db_get_base_url(); ?>/the-burn/contact/">Tell Us Your News</a></li>
 				</ul>
 			</div>			
 		</div>
