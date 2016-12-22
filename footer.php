@@ -38,9 +38,36 @@
 				</nav><!-- .social-navigation -->
 			<?php endif; ?>
 
-			<div class="site-info">
-				<span class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span>
-			</div><!-- .site-info -->
+			<div class="footer-left-content">
+				<h1>Learn More</h1>
+				<ul>
+					<li><a href="<?php echo db_get_base_url(); ?>/home/">Home</a></li>
+					<li><a href="<?php echo db_get_base_url(); ?>/about/">About</a></li>
+					<li><a href="<?php echo db_get_base_url(); ?>/the-burn/">The Burn</a></li>
+					<li><a href="<?php echo db_get_base_url(); ?>/prepare/">Prepare</a></li>
+					<li><a href="<?php echo db_get_base_url(); ?>/participate/">Participate</a></li>
+					<li><a href="<?php echo db_get_base_url(); ?>/gallery/">Gallery</a></li>
+					<li><a href="<?php echo db_get_base_url(); ?>/contact/">Contact</a></li>
+				</ul>
+			</div>
+			
+			<div class="footer-right-content">
+				<h1>Participate!</h1>
+				<ul>
+					<li><a href="<?php echo db_get_base_url(); ?>/volunteer/">Volunteer for Dragon Burn</a></li>
+					<li><a href="<?php echo db_get_base_url(); ?>/theme-camps/">Start a Theme Camp</a></li>
+					<li><a href="<?php echo db_get_base_url(); ?>/participate/contribute/installation">Build an Installation at Dragon Burn</a></li>
+					<li><a href="<?php echo db_get_base_url(); ?>/participate/contribute/workshop/">Host a Workshop at Dragon Burn</a></li>
+					<li><a href="<?php echo db_get_base_url(); ?>/participate/contribute/perform/">Perform at Dragon Burn</a></li>
+					<li><a href="<?php echo db_get_base_url(); ?>/participate/contribute/community-event/">Run an Event for the Community</a></li>
+				</ul>
+			</div>
+			
+			<div class="footer-bottom-content">
+				<p>Website by Doc Bok and Koi</p>
+				<p>Copyright Dragon Burn Organisation</p>
+			</div>
+			
 		</footer><!-- .site-footer -->
 	</div><!-- .site-inner -->
 </div><!-- .site -->

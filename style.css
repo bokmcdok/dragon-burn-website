@@ -179,7 +179,7 @@ body {
 	}
 
 .site-inner {
-	background: white;
+	background: #394902;
 	-moz-box-shadow: 1px 1px 10px #394902;
     -webkit-box-shadow: 1px 1px 10px #394902;
     box-shadow: 0 1px 10px #394902;
@@ -683,4 +683,61 @@ body {
 
 .site-footer {
 	background: #394902;
+	-webkit-align-items: initial;
+    -ms-flex-align: initial;
+    align-items: initial;
+    border-top: solid 1px #99bc20;
+    width: 90%;
+    margin: 20px auto;
+    padding-top: 20px;
+}
+
+.footer-left-content,
+.footer-right-content {
+	width: 40%;
+	margin: 0 5%;
+}
+
+.footer-left-content h1,
+.footer-right-content h1 {
+	color: #99bc20;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    border-bottom: 1px solid #99bc20;
+}
+
+.footer-left-content ul,
+.footer-right-content ul {
+	list-style: none;
+	margin: 0 10px;
+}
+
+.footer-left-content a,
+.footer-right-content a {
+	color: #99bc20;
+	font-size: 14px;
+}
+
+.footer-left-content a:hover,
+.footer-left-content a:focus,
+.footer-right-content a:hover,
+.footer-right-content a:focus {
+	color: #99bc20;
+	text-decoration: underline;
+}
+
+.footer-bottom-content {
+	width: 90%;
+	border-top: solid 1px #517201;
+    margin: 20px auto;
+    padding-top: 20px;
+}
+
+.footer-bottom-content p {
+	margin: 0;
+	text-align: center;
+	font-size: 14px;
+	color: #517201;
 }
