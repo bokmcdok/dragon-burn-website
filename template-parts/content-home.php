@@ -8,8 +8,8 @@
  */
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<div class="entry-content">
+<article id="post-<?php the_ID(); ?>" class="type-page">
+	<div class="home-content">
 		<div class="home-content-top">
 			<div class="home-content-top-image">
 				<img src="/wp-content/themes/twentysixteen-child/images/burning-dragon-200x133.jpg">
