@@ -846,3 +846,58 @@ body {
 	color: #99bc20;
 	text-decoration: underline;
 }
+
+/* Blogroll */
+
+.site-main .post {
+	background: white;
+    border-radius: 27px;
+    margin: 25px 0 0 0;
+    -moz-box-shadow: 0 1px 10px #323b12;
+    -webkit-box-shadow: 0 1px 10px #323b12;
+    box-shadow: 0 1px 10px #323b12;
+}
+
+.post h1 { 
+	background: #0d0d0d;
+    border-radius: 25px 25px 2px 2px;
+    margin: 0 0 10px 0;
+    font-size: 30px;
+    padding: 10px 0 0 0;
+}
+
+.post h1 a {
+	color: #99bc20;
+    font-weight: normal;
+    padding: 15px 15px 10px 25px;
+}
+
+.post h1 a:hover,
+.post h1 a:focus {
+	color: #99bc20;
+	text-decoration: underline;
+}
+
+.post .entry-content {
+	width: 78%;
+}
+
+.post .entry-content p {
+	margin-bottom: 0;
+}
+
+.post .entry-footer {
+	width: 19%;
+	margin: 2px;
+}
+
+.post .entry-footer .posted-on,
+.post .entry-footer .cat-links {
+	float: right;
+}
+
+.post .entry-footer .tags-links,
+body:not(.search-results) article.post .entry-footer .comments-link,
+body:not(.search-results) article.post .entry-footer .edit-link {
+	display: none;
+}
