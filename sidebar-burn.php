@@ -13,7 +13,7 @@
 				<li><a href="<?php echo db_get_base_url(); ?>/the-burn/event-guide/">Event Guide</a></li>
 				<li><a href="<?php echo db_get_base_url(); ?>/the-burn/theme/">Theme</a></li>
 				<li><a href="<?php echo db_get_base_url(); ?>/the-burn/effigy/">Effigy</a></li>
-				<li><a href="<?php echo db_get_base_url(); ?>/the-burn/town-hall/">Town Hall</a>
+				<li><a href="<?php echo db_get_base_url(); ?>/the-burn/town-hall/">Town Hall</a></li>
 			</ul>
 		</div>
 	</aside><!-- .sidebar .widget-area -->
