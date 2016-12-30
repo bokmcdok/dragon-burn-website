@@ -16,9 +16,9 @@
 			</div>
 			<div class="home-content-top-description">
 				<h1>What is Dragon Burn?</h1>
-				<p>Dragon Burn is a Shanghai-based community of artists, musicians
-				and performers who gather once a year to create a temporary village
-				of free expression!</p>
+				<p>Dragon Burn is a Shanghai-based community focusing on
+				interactive art, music, fire and pop-up participatory
+				imagination!</p>
 			</div>
 			<div class="home-content-top-links">
 				<ul>
