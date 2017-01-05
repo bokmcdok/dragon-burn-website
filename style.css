@@ -721,7 +721,7 @@ body {
 
 /* Pages */
 
-.page {
+.type-page {
 	background: white;
     border-radius: 30px;
     margin-top: 25px;
@@ -746,7 +746,6 @@ body {
 
 .page figure,
 .post figure {
-    margin: 0;
     padding: 10px;
     background: #99bc20;
     margin: 10px;
@@ -1154,7 +1153,7 @@ body:not(.search-results) article:not(.sticky) .posted-on,
 
 /* Previous Post */
 
-.site-main > :last-child {
+.post-navigation {
 	border: none;
 	margin: 0 25px;
 }
@@ -1176,4 +1175,38 @@ body:not(.search-results) article:not(.sticky) .posted-on,
 .post-navigation a:focus .post-title {
 	color: #99bc20;
 	text-decoration: underline;
+}
+
+/* Category Page */
+
+.page-header {
+	border: none;
+	margin: 0;
+}
+
+.page-title {
+	color: #99bc20;
+    text-transform: none;
+    letter-spacing: initial;
+    border-bottom: 1px #99bc20 solid;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+/* Featured Images */
+
+.post-thumbnail {
+	float: left;
+    width: 30%;
+    margin: 10px 25px 0;
+    padding: 10px;
+    background: #99bc20;
+    border-radius: 10px;
+    -moz-box-shadow: 0 1px 10px #323b12;
+    -webkit-box-shadow: 0 1px 10px #323b12;
+    box-shadow: 0 1px 10px #323b12;
+}
+
+.post-thumbnail img {
+	border-radius: 10px;
 }
