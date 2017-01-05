@@ -1151,3 +1151,29 @@ body:not(.search-results) article:not(.sticky) .posted-on,
 .comment-form .form-submit input[type=submit]:focus {
 	text-decoration: underline;
 }
+
+/* Previous Post */
+
+.site-main > :last-child {
+	border: none;
+	margin: 0 25px;
+}
+
+.post-navigation .meta-nav {
+	color: #99bc20;
+    text-transform: none;
+    letter-spacing: initial;
+    border-bottom: 1px #99bc20 solid;
+    font-size: 16px;
+}
+
+.post-navigation .post-title {
+	color: #99bc20;
+    font-weight: normal;
+}
+
+.post-navigation a:hover .post-title,
+.post-navigation a:focus .post-title {
+	color: #99bc20;
+	text-decoration: underline;
+}
